@@ -3,8 +3,9 @@
 
 <head>
   <meta charset="utf-8">
-  <title>😎 Hardik's Eportfolio</title>
+  <title>Hardik's Eportfolio</title>
   <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" href="favicon.ico">
 </head>
 <!--
   Starting of  Body
@@ -14,194 +15,211 @@
   <!--
     Adding my Image At the top
   -->
-  <img src="images/myImage.jpg" alt="Hardik's Image">
-  <h1>Lord Hardik</h1>
-  <p>
-    <em>
-      B.Tech Undergraduate at <strong>IIIT Delhi</strong>
-    </em>
-  </p>
+  <div class="Introduction">
+    <img src="images/myImage.jpg" alt="Hardik's Image">
+    <h1>Lord Hardik</h1>
+    <p>
+      <em>
+        B.Tech Undergraduate at <strong>IIIT Delhi</strong>
+      </em>
+    </p>
+  </div>
   <!--
     Starting BioGraphy Section
   -->
-  <hr>
-  <h3>Biography</h3>
-  <p>I am Hardik Saini, B. Tech Undergradaute at IIIT Delhi, studying Computer Science & Bio-Siences
-    , The area of studies that intrests me most are Parallel Programming, Operating System, OOPs & Databases.
-    My aim is to build products that acts as base for other developers to build upon.
-  </p>
+  <div class="Biography">
+    <h3>Biography</h3>
+    <p>I am Hardik Saini, B. Tech Undergradaute at IIIT Delhi, studying Computer Science & Bio-Siences
+      , The area of studies that intrests me most are Parallel Programming, Operating System, OOPs & Databases.
+      My aim is to build products that acts as base for other developers to build upon.
+    </p>
+  </div>
+
+
   <!--
     Starting News Section
   -->
-  <hr>
-  <h3>News</h3>
-  <p>
-    I am currently working on my <strong>B. Tech Project</strong>, which is to <strong>Parallelize a clustering algorithm</strong> which is runtime agnostic in C, I am happy to say that we're getting positive results, both in terms of energy and
-    speedup.
-  </p>
+  <div class="News">
+    <h3>News</h3>
+    <p>
+      I am currently working on my <strong>B. Tech Project</strong>, which is to <strong>Parallelize a clustering algorithm</strong> which is runtime agnostic in C, I am happy to say that we're getting positive results, both in terms of energy and
+      speedup.
+    </p>
+  </div>
+
   <!--
     Starting Projects Section
   -->
-  <hr>
-  <h3>Projects</h3>
-  <!--
-    Starting Projects Table from here
-  -->
-  <table cellspacing="25">
-    <!-- Head row, Row 0 Starting -->
-    <thead>
-      <tr>
-        <th>Project Name</th>
-        <th>Duration</th>
-        <th>Description</th>
-        <th>Technologies/Platform Used</th>
-        <th>Team Size</th>
-      </tr>
-    </thead>
-    <tbody>
-      <!-- Row 1 Starting -->
-      <tr>
-        <td>
-          <a href="https://bitbucket.org/vivekk_rice/clustering/src/master/">
-            Parallelize Clustering Algorithm
-          </a>
-        </td>
-        <td>
-          April,2020
-        </td>
-        <td>
-          Clustering is a Standard NP-Hard Problem, which plays an important role
-          to understand communities in an network, A moderate size graph can take
-          upto many days if not week, The goal of this project is to Parallelize
-          a clustering algorithm & at the same time make it energy efficient.
-        </td>
-        <td>
-          Hclib Parallel runtime, C Programming Language, Likwid energy measuring API.
-        </td>
-        <td>
-          3
-        </td>
-      </tr>
-      <!-- Row 2 Starting -->
-      <tr>
-        <td>
-          <a href="https://github.com/Guardianofgotham/PVZ">
-            Plant vs Zombies
-          </a>
-        </td>
-        <td>
-          Sep, 19 - Dec, 19
-        </td>
-        <td>
-          Plant vs Zombies is a very popular game, available at Google play. The
-          goal of this project is to recreate this standard game with the option
-          to save player profiles and game progress using Concept's of OOP in Java.
-        </td>
-        <td>
-          Java, JavaFx, ScreenBuilder, Eclipse.
-        </td>
-        <td>
-          2
-        </td>
-      </tr>
-      <!-- Row 3 Starting -->
-      <tr>
-        <td>
-          <a href="https://github.com/c9addy/TheApp">
-            Android Pipeline for Alignment
-          </a>
-        </td>
-        <td>
-          May, 20 - June, 20
-        </td>
-        <td>
-          As New Technologies are arising every day, It's getting hard to keep track
-          of which tool to use and which ones are outdated, Keeping track of different
-          kind of extensions for different files, We introduce SRA Data alignment,
-          The user has to install Android Application on their smartphones and store
-          executable script on there, The app will take input of ssh address and GEOID,
-          The app will automatically download SRA data on your server along with genome
-          and start its alignment.
-        </td>
-        <td>
-          python 3, flutter, dart, VS code.
-        </td>
-        <td>
-          6
-        </td>
-      </tr>
-      <!-- Row 4 Starting -->
-      <tr>
-        <td>
-          <a href="https://github.com/Guardianofgotham/Project">
-            Books Paradise
-          </a>
-        </td>
-        <td>
-          May, 20 - June, 20
-        </td>
-        <td>
-          The goal of this project is to recreate a bookselling store having
-          five stakeholders Normal Book Purchaser, Publisher, Author, Company
-          Manager & Stock Manager. this project uses Relational Database Concepts
-          such as Normalization.
-        </td>
-        <td>
-          Java, JavaFx, Java-MailX, IntelliJ Idea, Font-Awesome, JFeonix, JDBC
-        </td>
-        <td>
-          5
-        </td>
-      </tr>
-    </tbody>
-  </table>
-  <!--
-    End of Projects Table here
-  -->
+  <div class="Projects">
+    <h3>Projects</h3>
+    <!--
+      Starting Projects Table from here
+    -->
+    <table cellspacing="25">
+      <!-- Head row, Row 0 Starting -->
+      <thead>
+        <tr>
+          <th>Project Name</th>
+          <th>Duration</th>
+          <th>Description</th>
+          <th>Technologies/Platform Used</th>
+          <th>Team Size</th>
+        </tr>
+      </thead>
+      <tbody>
+        <!-- Row 1 Starting -->
+        <tr>
+          <td>
+            <a href="https://bitbucket.org/vivekk_rice/clustering/src/master/">
+              Parallelize Clustering Algorithm
+            </a>
+          </td>
+          <td>
+            April,2020
+          </td>
+          <td>
+            Clustering is a Standard NP-Hard Problem, which plays an important role
+            to understand communities in an network, A moderate size graph can take
+            upto many days if not week, The goal of this project is to Parallelize
+            a clustering algorithm & at the same time make it energy efficient.
+          </td>
+          <td>
+            Hclib Parallel runtime, C Programming Language, Likwid energy measuring API.
+          </td>
+          <td>
+            3
+          </td>
+        </tr>
+        <!-- Row 2 Starting -->
+        <tr>
+          <td>
+            <a href="https://github.com/Guardianofgotham/PVZ">
+              Plant vs Zombies
+            </a>
+          </td>
+          <td>
+            Sep, 19 - Dec, 19
+          </td>
+          <td>
+            Plant vs Zombies is a very popular game, available at Google play. The
+            goal of this project is to recreate this standard game with the option
+            to save player profiles and game progress using Concept's of OOP in Java.
+          </td>
+          <td>
+            Java, JavaFx, ScreenBuilder, Eclipse.
+          </td>
+          <td>
+            2
+          </td>
+        </tr>
+        <!-- Row 3 Starting -->
+        <tr>
+          <td>
+            <a href="https://github.com/c9addy/TheApp">
+              Android Pipeline for Alignment
+            </a>
+          </td>
+          <td>
+            May, 20 - June, 20
+          </td>
+          <td>
+            As New Technologies are arising every day, It's getting hard to keep track
+            of which tool to use and which ones are outdated, Keeping track of different
+            kind of extensions for different files, We introduce SRA Data alignment,
+            The user has to install Android Application on their smartphones and store
+            executable script on there, The app will take input of ssh address and GEOID,
+            The app will automatically download SRA data on your server along with genome
+            and start its alignment.
+          </td>
+          <td>
+            python 3, flutter, dart, VS code.
+          </td>
+          <td>
+            6
+          </td>
+        </tr>
+        <!-- Row 4 Starting -->
+        <tr>
+          <td>
+            <a href="https://github.com/Guardianofgotham/Project">
+              Books Paradise
+            </a>
+          </td>
+          <td>
+            May, 20 - June, 20
+          </td>
+          <td>
+            The goal of this project is to recreate a bookselling store having
+            five stakeholders Normal Book Purchaser, Publisher, Author, Company
+            Manager & Stock Manager. this project uses Relational Database Concepts
+            such as Normalization.
+          </td>
+          <td>
+            Java, JavaFx, Java-MailX, IntelliJ Idea, Font-Awesome, JFeonix, JDBC
+          </td>
+          <td>
+            5
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <!--
+      End of Projects Table here
+    -->
+  </div>
+
   <!--
       Start of Position Responsibility Section
   -->
-  <hr>
-  <h3>
-    Position/Responsibility
-  </h3>
-  <p>
-    We organized a new event in our college technical fest named <a href="images/biowhiz_2.jpg" target="_blank">BioWhiz</a>, The goal was to
-    promote our Computational Biology Branch among different colleges and school
-    students, There were three rounds, First round was an MCQ quiz of very basic
-    questions of biology, Second round was guessing the Science Fiction movie. In
-    the last round, we asked Questions which are a mix of Computation and biology.
-    We had Blast & BioWhiz was a great success with the reach of 10K+ on Facebook.
-    The top 3
-    <a href="images/biowhiz_winners.jpg" target="_blank">winners</a>
-    were awarded money 4K, 3K & 2K, First Position holder was Mohammad Basil Asad.
-  </p>
+  <div class="Position">
+    <h3>
+      Position/Responsibility
+    </h3>
+    <p>
+      We organized a new event in our college technical fest named <a href="images/biowhiz_2.jpg" target="_blank">BioWhiz</a>, The goal was to
+      promote our Computational Biology Branch among different colleges and school
+      students, There were three rounds, First round was an MCQ quiz of very basic
+      questions of biology, Second round was guessing the Science Fiction movie. In
+      the last round, we asked Questions which are a mix of Computation and biology.
+      We had Blast & BioWhiz was a great success with the reach of 10K+ on Facebook.
+      The top 3
+      <a href="images/biowhiz_winners.jpg" target="_blank">winners</a>
+      were awarded money 4K, 3K & 2K, First Position holder was Mohammad Basil Asad.
+    </p>
+  </div>
+
   <!--
     Starting of Communtiy work Section here.
   -->
-  <hr>
-  <h3>
-    Community work
-  </h3>
-  <p>
-    We did community work in an NGO organization <a href="http://www.manzil.in/" target="_blank">Manzil</a>, Manzil Is A Non-profit, Youth-Led Learning Center. Manzil is Providing A Supportive Community And Resources For Students To Empower
-    Themselves. At manzil we taught python 3 to students and teachers, helped them out & provided them as much technical support we could, It was also a rare opportunity for us, to see how the organization works & Learn how they support each other,
-    All of the members of the team were really cool, kind and passionate about what they do. It was a really good and fun experience for us.
-  </p>
-  <p>
-    <a href="images/Manzil_1.jpg" target="_blank">Image1</a>
-    <a href="images/Manzil_2.jpg" target="_blank">Image2</a>
-    <a href="images/Manzil_3.jpg" target="_blank">Image3</a>
-  </p>
-  <hr>
-  <h3>
-    Hobbies
-  </h3>
-  <ol>
-    <li>Anime Lover: I Watch lots of anime, I am crazy for them. This is myanimelist <a href="https://myanimelist.net/profile/lord_hardik" target="_blank">profile</a>.</li>
-    <li>Tech Geek: I also love talking & reading about new techs.</li>
-    <li>Hanging out with friends.</li>
-  </ol>
+  <div class="Community-work">
+    <h3>
+      Community work
+    </h3>
+    <p>
+      We did community work in an NGO organization <a href="http://www.manzil.in/" target="_blank">Manzil</a>, Manzil Is A Non-profit, Youth-Led Learning Center. Manzil is Providing A Supportive Community And Resources For Students To Empower
+      Themselves. At manzil we taught python 3 to students and teachers, helped them out & provided them as much technical support we could, It was also a rare opportunity for us, to see how the organization works & Learn how they support each other,
+      All of the members of the team were really cool, kind and passionate about what they do. It was a really good and fun experience for us.
+    </p>
+    <p>
+      <a href="images/Manzil_1.jpg" target="_blank">Image1</a>
+      <a href="images/Manzil_2.jpg" target="_blank">Image2</a>
+      <a href="images/Manzil_3.jpg" target="_blank">Image3</a>
+    </p>
+  </div>
+  <!--
+    Starting of Hobbies Section
+  -->
+  <div class="Hobbies">
+    <h3>
+      Hobbies
+    </h3>
+    <ol>
+      <li>Anime Lover: I Watch lots of anime, I am crazy for them. This is myanimelist <a href="https://myanimelist.net/profile/lord_hardik" target="_blank">profile</a>.</li>
+      <li>Tech Geek: I also love talking & reading about new techs.</li>
+      <li>Hanging out with friends.</li>
+    </ol>
+  </div>
+
 </body>
 <!--
 End of Body
