@@ -1,6 +1,9 @@
 body{
-  background-color: white;
-  margin: 0;
+  background-color: #e3fff1;
+  margin: 10px
+}
+.Introduction{
+  text-align: left;
 }
 
 
@@ -10,6 +13,8 @@ h1{
 
 h3{
   font-size: 28px;
+  text-decoration: underline;
+  font-weight: bold;
 }
 
 p, ol{
@@ -17,8 +22,10 @@ p, ol{
 }
 
 
-table{
+table, td, th{
   font-size: 20px;
+  padding: 16px;
+  text-align: center;
 }
 
 img{
@@ -30,5 +37,7 @@ img{
 hr{
   width: 5%;
   border-style: dotted none none none;
+  border-color: black;
   border-width: 10px;
+  margin: 60px auto;
 }
