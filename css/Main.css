@@ -1,0 +1,24 @@
+.my-logo-heading{
+  margin-left: 0.2rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.my-navbar-items{
+  margin: 0 6rem 0 0.1rem;
+  font-size: 1.3rem;
+}
+
+.myIntoImage{
+  width: 10%;
+  height: 10%;
+  border-radius: 30%;
+}
+
+table{
+  text-align: center;
+}
+
+td, th{
+  padding: 0.7rem;
+}
