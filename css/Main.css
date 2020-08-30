@@ -1,3 +1,13 @@
+body{
+  text-align: center;
+  background-color: #A4ABAE;
+}
+
+p{
+
+  font-size: 1.5rem;
+}
+
 .my-logo-heading{
   margin-left: 0.2rem;
   font-size: 1.5rem;
@@ -10,8 +20,8 @@
 }
 
 .myIntoImage{
-  width: 10%;
-  height: 10%;
+  width: 15rem;
+  height: 17rem;
   border-radius: 30%;
 }
 
@@ -21,4 +31,23 @@ table{
 
 td, th{
   padding: 0.7rem;
+}
+
+.position{
+  text-align: center;
+  /* margin: 5rem; */
+}
+
+.biowhiz-img, .comm-work-img{
+  margin: auto;
+  border-radius: 2rem;
+}
+
+.position-description, .comm-work-description{
+  padding: 2rem 14rem;
+}
+
+.hobbies-img{
+  width: 15rem;
+  margin: 2rem auto 2rem;
 }
