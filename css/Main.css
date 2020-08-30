@@ -3,9 +3,19 @@ body{
   background-color: #A4ABAE;
 }
 
-p{
+h1{
+  font-size: 4rem;
+  font-weight: bolder;
+}
 
+h3{
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+p{
   font-size: 1.5rem;
+  padding: 2rem 6rem;
 }
 
 .my-logo-heading{
@@ -47,7 +57,16 @@ td, th{
   padding: 2rem 14rem;
 }
 
+.My-hobbies{
+  margin: 2rem 6rem;
+}
+
+.hobbies-item{
+  margin-top: 1rem;
+  padding: 1rem 2rem;
+}
+
 .hobbies-img{
   width: 15rem;
-  margin: 2rem auto 2rem;
+  margin-bottom: 1.5rem;
 }
